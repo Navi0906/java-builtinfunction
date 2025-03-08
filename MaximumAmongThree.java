@@ -11,13 +11,13 @@ public class MaximumAmongThree{
         System.out.println("The maximum of the three numbers is: " + max);
     }
 
-    private static int getInput(String prompt) {
+    public static int getInput(String prompt) {
         Scanner scanner = new Scanner(System.in);
         System.out.print(prompt);
         return scanner.nextInt();
     }
 
-    private static int findMaximum(int a, int b, int c) {
+    public static int findMaximum(int a, int b, int c) {
         int max = a; 
         if (b > max) {
             max = b; 
